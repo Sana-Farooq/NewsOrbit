@@ -1,0 +1,97 @@
+{
+    "status": "ok",
+    "totalResults": 7,
+    "articles": [
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Margaret Dawson",
+            "title": "Trump revives the Presidential Fitness Test for kids. CNN’s chief data analyst decided to take it | CNN Politics",
+            "description": "President Donald Trump signed an executive order that will expand on his council on sports, fitness and nutrition, including by reviving the Presidential Fitness Test in public schools. CNN’s Harry Enten decided to take the test and see how he’d fare against …",
+            "url": "https://www.cnn.com/2025/08/01/politics/video/presidential-fitness-test-trump-enten-digvid",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/screenshot-2025-08-01-at-9-32-26-am.png?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2025-08-01T14:15:21.838Z",
+            "content": "President Donald Trump signed an executive order that will expand on his council on sports, fitness and nutrition, including by reviving the Presidential Fitness Test in public schools. CNN's Harry E… [+79 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Audrey Ash",
+            "title": "Stiffed by Tesla: The car company owes small businesses millions in unpaid bills | CNN Politics",
+            "description": "Dozens of small businesses saw working with Musk’s companies as their big break. They say it left them in financial ruins. CNN’s Kyung Lah reports.",
+            "url": "https://www.cnn.com/2025/08/01/politics/video/inv-musk-unpaid-bills",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/016-070725-ats-muskunpaidbiz.jpg?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2025-08-01T10:00:45.274Z",
+            "content": "Dozens of small businesses saw working with Musk's companies as their big break. They say it left them in financial ruins. CNNs Kyung Lah reports."
+        },
+        {
+            "source": {
+                "id": "politico",
+                "name": "Politico"
+            },
+            "author": null,
+            "title": "The nation’s cartoonists on the week in politics",
+            "description": "Every week political cartoonists throughout the country and across the political spectrum apply their ink-stained skills to capture the foibles, memes, hypocrisies and other head-slapping events in the world of politics. The fruits of these labors are hundred…",
+            "url": "https://www.politico.com/gallery/2025/08/01/the-nations-cartoonists-on-the-week-in-politics-00487502",
+            "urlToImage": "https://static.politico.com/f0/23/bfbfdd7d4ed892af716db0c1aa30/teaser.jpg",
+            "publishedAt": "2025-08-01T09:00:00+00:00",
+            "content": "Cartoon Carousel \r\nEvery week political cartoonists throughout the country and across the political spectrum apply their ink-stained skills to capture the foibles, memes, hypocrisies and other head-s… [+261 chars]"
+        },
+        {
+            "source": {
+                "id": "news-com-au",
+                "name": "News.com.au"
+            },
+            "author": "Benedict Brook, Samuel Clench, Brielle Burns",
+            "title": "‘$8m’: Biden aide scandal rocks US",
+            "description": "Welcome to our coverage of US politics.",
+            "url": "https://www.news.com.au/world/north-america/us-politics/us-politics-live/live-coverage/d500b419e48226a0b4109bbb05097a5f",
+            "urlToImage": "https://content.api.news/v3/images/bin/d1cd4f2dd1a864ba639e3144a0c1086a",
+            "publishedAt": "2025-08-01T00:22:00Z",
+            "content": "Welcome to our coverage of US politics.\r\nThe family of Virginia Giuffre, the victim of Jeffrey Epstein and Ghislaine Maxwell who took her own life recently, has spoken to CNN, saying she would have w… [+2168 chars]"
+        },
+        {
+            "source": {
+                "id": "cnn",
+                "name": "CNN"
+            },
+            "author": "Dawn Handley",
+            "title": "CNN Headlines | CNN",
+            "description": "CNN Headlines is a curated channel covering major news events across politics, international, business, and entertainment, and showcasing the most impactful stories of the day.",
+            "url": "https://www.cnn.com/videos/fast/cnn-headlines",
+            "urlToImage": "https://media.cnn.com/api/v1/images/stellar/prod/cnn-headlines-placeholder-1920x1080.png?c=16x9&q=w_800,c_fill",
+            "publishedAt": "2025-06-30T20:25:47.801Z",
+            "content": "CNN Headlines is a curated channel covering major news events across politics, international, business, and entertainment, and showcasing the most impactful stories of the day."
+        },
+        {
+            "source": {
+                "id": "the-american-conservative",
+                "name": "The American Conservative"
+            },
+            "author": null,
+            "title": "Politics Archives - The American Conservative",
+            "description": null,
+            "url": "https://www.theamericanconservative.com/category/politics/",
+            "urlToImage": null,
+            "publishedAt": "2022-07-07T21:37:27.3936289Z",
+            "content": null
+        },
+        {
+            "source": {
+                "id": "the-jerusalem-post",
+                "name": "The Jerusalem Post"
+            },
+            "author": null,
+            "title": "Congresswoman Nita Lowey: I am proud to stand with Israel",
+            "description": "Gantz: Security of Israel is above politics; PA: This is a crime.",
+            "url": "https://www.jpost.com/Arab-Israeli-Conflict/Gantz-Security-of-Israel-is-above-politics-Palestinians-This-is-a-crime-607595",
+            "urlToImage": "https://images.jpost.com/image/upload/f_auto,fl_lossy/t_Article2016_ControlFaceDetect/448812",
+            "publishedAt": "2019-11-13T04:41:00Z",
+            "content": "US Ambassador David M. Friedman said the US stands “with our friend and ally Israel at this critical moment” on social media on Tuesday after roughly 170 rockets were fired on Israel from the Gaza St… [+6160 chars]"
+        }
+    ]
+}
