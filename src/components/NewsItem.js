@@ -7,11 +7,11 @@ export class NewsItem extends Component {
     return (
       <div>
         <div className="card" style={{ width: "18rem" }}>
-          <img src={imageUrl} className="card-img-top" alt="..." />
+          <img src={imageUrl?imageUrl:"https://techcrunch.com/wp-content/uploads/2024/04/GettyImages-1708316139.jpg?resize=1200,800"} className="card-img-top" alt="..." />
           <div className="card-body">
             <h5 className="card-title">{title}...</h5>
             <p className="card-text">{description}...</p>
-            <a href={NewsUrl}  className="btn btn-primary">Explore</a>
+            <a href={NewsUrl}  className="btn btn-dark">Explore</a>
           </div>
         </div>
       </div>
