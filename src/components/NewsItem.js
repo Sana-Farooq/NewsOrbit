@@ -8,7 +8,8 @@ export class NewsItem extends Component {
     return (
       <div>
         <div className="card">
-          <img src={imageUrl? imageUrl: newsImage} className="card-img-top"  alt="News" onError={(e) => { e.target.src = newsImage; }}/>
+          <img src={imageUrl? imageUrl: newsImage} className="card-img-top"  alt="News" 
+          onError={(e) => { e.target.src = newsImage; }}/>
           <div className="card-body">
             <h5 className="card-title">{title}...</h5>
             <p className="card-text">{description}...</p>

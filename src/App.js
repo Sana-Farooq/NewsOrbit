@@ -1,8 +1,9 @@
 import './App.css';
 
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import NavBar from './components/NavBar';
 import News  from './components/News';
+import Footer from './components/Footer';
 import {
   BrowserRouter as Router,
   Routes,
@@ -40,7 +41,7 @@ export class App extends Component {
     </Router>
   
         
-        
+       <Footer/>
       </div>
     )
   }
