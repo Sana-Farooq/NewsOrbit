@@ -37,7 +37,7 @@ export class News extends Component {
     this.props.setProgress(10);
     this.setState({ loading: true });
     try{
-    const url = `https://newsapi.org/v2/top-headlines?country=${this.props.country}&category=${this.props.category}&apiKey=${this.props.apikey}&page=1&pageSize=${this.props.pageSize}`;
+    const url = `https://gnews.io/api/v4/top-headlines?category=${this.props.category}&lang=en&country=us&max=${this.props.pageSize}&apikey=YOUR_GNEWS_API_KEY`;
     let data = await fetch(url);
     this.props.setProgress(30);
     let parsedData = await data.json();
