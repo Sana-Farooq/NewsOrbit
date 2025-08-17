@@ -16,7 +16,7 @@ export default class NavBar extends Component {
             <span className="fw-bold text-light">NewsOrbit</span>
           </div>
           <button
-            className="navbar-toggler"
+            className="navbar-toggler bg-light color-white"
             type="button"
             data-bs-toggle="collapse"
             data-bs-target="#navbarSupportedContent"

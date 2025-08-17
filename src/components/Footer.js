@@ -8,7 +8,6 @@ export default class Footer extends Component {
   render() {
     return (
       <footer className="footer">
-        <div className="container">
           <div className="row w-100 align-items-center text-center text-lg-start">
             <div className="col-lg-3 mb-3 ">
               <img className="footer-logo" src={logoNewsOrbit} alt="News Orbit Logo"/>
@@ -37,7 +36,6 @@ export default class Footer extends Component {
           </div>
         </div>
           </div>
-        </div>
         <div className="footer-bottom">
         <div><p className="bottom-line">&copy; {new Date().getFullYear()} NewsOrbit. All rights reserved.</p></div>
         <div><ul>
