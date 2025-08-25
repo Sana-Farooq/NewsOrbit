@@ -13,7 +13,7 @@ export default class NavBar extends Component {
               alt="Logo"
               style={{ height: "40px", marginRight: "10px" }}
             />
-            <span className="fw-bold text-light">NewsOrbit</span>
+            <span className="fw-bold text-light">NewsOrbitNow</span>
           </div>
           <button
             className="navbar-toggler bg-light color-white"
