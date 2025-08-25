@@ -71,7 +71,7 @@ export class News extends Component {
           className="text-center"
           style={{ marginTop: "90px", marginBottom: "40px" }}
         >
-          NewsOrbit - Top {this.props.category} Headlines
+          NewsOrbitNow - Top {this.props.category} Headlines
         </h1>
         <InfiniteScroll
           dataLength={this.state.articles.length}
