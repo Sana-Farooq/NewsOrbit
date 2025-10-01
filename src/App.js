@@ -1,52 +1,56 @@
 import './App.css';
 
-import React, { Component } from 'react';
+import { useState } from 'react';
 import NavBar from './components/NavBar';
-import News  from './components/News';
+import News from './components/News';
 import Footer from './components/Footer';
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
 } from "react-router-dom";
 import LoadingBar from "react-top-loading-bar";
-export class App extends Component {
-  pageSize="30";
-  token=process.env.REACT_APP_GNEWS_API_KEY;
-  
-   state = {
-    progress:0
-   }
-   setProgress=(progress) =>{
-     this.setState({progress: progress})
-   }
-   
-  render() {
-    return (
-      <div>
-        <Router>
-          <NavBar/>
-            <LoadingBar
-        color="#f11946"
-        progress={this.state.progress}
-      />
-            <Routes>
-          <Route  path='/' element={<News setProgress={this.setProgress} token={this.token} key="general" pageSize={this.pageSize} country="us" category="general"/>}/>
-          <Route  path='/business' element={<News setProgress={this.setProgress} token={this.token} key="business" pageSize={this.pageSize} country="us" category="business"/>}/>
-          <Route  path='/entertainment' element={<News setProgress={this.setProgress} token={this.token} key="entertainment" pageSize={this.pageSize} country="us" category="entertainment"/>}/>
-          <Route  path='/health' element={<News setProgress={this.setProgress} token={this.token} key="health" pageSize={this.pageSize} country="us" category="health"/>}/>
-          <Route  path='/science' element={<News setProgress={this.setProgress} token={this.token} key="science" pageSize={this.pageSize} country="us" category="science"/>}/>
-          <Route  path='/sports' element={<News setProgress={this.setProgress} token={this.token} key="sports" pageSize={this.pageSize} country="us" category="sports"/>}/>
-          <Route  path='/technology' element={<News setProgress={this.setProgress} token={this.token} key="technology" pageSize={this.pageSize} country="us" category="technology"/>}/>
-        </Routes>
-      
-    </Router>
-  
-        
-       <Footer/>
-      </div>
-    )
-  }
-}
 
+
+function App() {
+  const pageSize = "30";
+  const token = process.env.REACT_APP_GNEWS_API_KEY;
+
+  const [progress, setProgress] = useState(0);
+
+  const categories = [
+    "general",
+    "business",
+    "entertainment",
+    "health",
+    "science",
+    "sports",
+    "technology"
+  ];
+
+  return (
+    <div>
+        <NavBar />
+        <LoadingBar color="#f11946" progress={progress} />
+        <Routes>
+          {categories.map((category) => (
+            <Route
+              key={category}
+              path={category === "general" ? "/" : `/${category}`}
+              element={
+                <News
+                  setProgress={setProgress}
+                  token={token}
+                  key={category}
+                  pageSize={pageSize}
+                  country="us"
+                  category={category}
+                />
+              }
+            />
+          ))}
+        </Routes>
+      <Footer />
+    </div>
+  )
+}
 export default App
