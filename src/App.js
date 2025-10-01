@@ -28,9 +28,10 @@ function App() {
   ];
 
   return (
-    <div>
-        <NavBar />
-        <LoadingBar color="#f11946" progress={progress} />
+    <div className="d-flex flex-column min-vh-100">
+      <NavBar />
+      <LoadingBar color="#f11946" progress={progress} />
+      <main className="flex-grow-1">
         <Routes>
           {categories.map((category) => (
             <Route
@@ -49,6 +50,7 @@ function App() {
             />
           ))}
         </Routes>
+      </main>
       <Footer />
     </div>
   )

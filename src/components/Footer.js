@@ -1,13 +1,11 @@
-import React, { Component } from "react";
 import logoNewsOrbit from "../asset/logoNewsOrbit.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFacebook, faTwitter, faInstagram, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 
-export default class Footer extends Component {
-  render() {
+function Footer(){
     return (
-      <footer className="footer">
+      <footer className="footer ">
         <div className="container">
           <div className="row align-items-center text-lg-start text-center">
             <div className="col-lg-3 mb-3 d-flex justify-content-lg-start justify-content-center">
@@ -53,4 +51,5 @@ export default class Footer extends Component {
       </footer>
     );
   }
-}
+
+  export default Footer

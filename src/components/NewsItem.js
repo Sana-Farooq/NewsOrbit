@@ -1,10 +1,7 @@
-import React, { Component } from "react";
 import newsImage from './newsImage.webp';
 
-export class NewsItem extends Component {
-  
-  render() {
-      let {title, description, image, NewsUrl, date, source}= this.props;
+function NewsItem(props){
+      let {title, description, image, NewsUrl, date, source}= props;
     return (
       <div>
         <div className="card">
@@ -21,6 +18,6 @@ export class NewsItem extends Component {
       </div>
     );
   }
-}
+
 
 export default NewsItem;
